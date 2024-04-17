@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page23211",
-    "collectionId": "Page23211_JSObject1",
+    "pageId": "Page2",
+    "collectionId": "Page2_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T09:46:03Z"
   },
-  "id": "Page23211_JSObject1.myFun1",
+  "id": "Page2_JSObject1.myFun1",
   "deleted": false,
   "gitSyncId": "661f94acbccf2c0e60df2e03_661f9a5bab52383fc4872a98"
 }
