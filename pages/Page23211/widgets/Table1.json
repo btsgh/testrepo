@@ -60,7 +60,7 @@
     "widgetName": "Table1",
     "defaultPageSize": 0,
     "columnOrder": [],
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
     "bottomRow": 29,
     "columnWidthMap": {},
