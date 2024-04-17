@@ -87,6 +87,12 @@
           "viewType": "component",
           "componentData": "ROWS"
         },
+        "pagination": {
+          "data": {
+            "limit": "20",
+            "offset": "0"
+          }
+        },
         "projection": {
           "data": []
         },
