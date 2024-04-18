@@ -15,6 +15,10 @@
     {
       "id": "Page4",
       "isDefault": false
+    },
+    {
+      "id": "Apps",
+      "isDefault": false
     }
   ],
   "viewMode": false,
