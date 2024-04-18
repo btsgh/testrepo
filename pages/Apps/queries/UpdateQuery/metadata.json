@@ -29,7 +29,7 @@
           }
         },
         "collection": {
-          "data": "apps",
+          "data": "movies",
           "viewType": "component",
           "componentData": "apps"
         },
@@ -83,7 +83,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"update\": \"apps\",\n  \"updates\": [{\n    \"q\": { _id: ObjectId('{{data_table.selectedRow._id}}') },\n    \"u\": {\n  $set:{{update_form.formData}}\n},\n    \"multi\": false\n}]\n}\n",
+            "data": "{\n  \"update\": \"movies\",\n  \"updates\": [{\n    \"q\": { _id: ObjectId('{{data_table.selectedRow._id}}') },\n    \"u\": {\n  $set:{{update_form.formData}}\n},\n    \"multi\": false,\n  }]\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -112,6 +112,7 @@
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

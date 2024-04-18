@@ -21,8 +21,16 @@
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "formData": {
+        "aggregate": {
+          "limit": {
+            "data": "10"
+          },
+          "arrayPipelines": {
+            "data": ""
+          }
+        },
         "collection": {
-          "data": "apps",
+          "data": "movies",
           "viewType": "component",
           "componentData": "apps"
         },
@@ -30,6 +38,11 @@
           "data": "DELETE",
           "viewType": "component",
           "componentData": "DELETE"
+        },
+        "count": {
+          "query": {
+            "data": ""
+          }
         },
         "delete": {
           "query": {
@@ -43,14 +56,62 @@
             "componentData": "SINGLE"
           }
         },
+        "distinct": {
+          "query": {
+            "data": ""
+          },
+          "key": {
+            "data": ""
+          }
+        },
+        "find": {
+          "skip": {
+            "data": ""
+          },
+          "query": {
+            "data": ""
+          },
+          "sort": {
+            "data": ""
+          },
+          "limit": {
+            "data": ""
+          },
+          "projection": {
+            "data": ""
+          }
+        },
+        "insert": {
+          "documents": {
+            "data": ""
+          }
+        },
+        "misc": {
+          "formToNativeQuery": {
+            "data": "{\n  \"delete\": \"movies\",\n  \"deletes\": [{\n    \"q\": { _id: ObjectId('{{data_table.triggeredRow._id}}') },\n    \"limit\": 1,\n  }]\n}\n",
+            "status": "SUCCESS"
+          }
+        },
         "smartSubstitution": {
           "data": true,
           "viewType": "component",
           "componentData": true
+        },
+        "updateMany": {
+          "limit": {
+            "data": "SINGLE"
+          },
+          "query": {
+            "data": ""
+          },
+          "update": {
+            "data": ""
+          }
         }
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

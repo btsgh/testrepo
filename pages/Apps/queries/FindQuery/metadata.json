@@ -29,7 +29,7 @@
           }
         },
         "collection": {
-          "data": "apps",
+          "data": "movies",
           "viewType": "component",
           "componentData": "apps"
         },
@@ -91,7 +91,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"find\": \"apps\",\n  \"filter\": { name: /{{data_table.searchText||\"\"}}/i },\n  \"sort\": { \n{{data_table.sortOrder.column || 'columns'}}: {{data_table.sortOrder.order == \"desc\" ? -1 : 1}} \n},\n  \"skip\": {{(data_table.pageNo - 1) * data_table.pageSize}},\n  \"limit\": {{data_table.pageSize}},\n  \"batchSize\": {{data_table.pageSize}}\n}\n",
+            "data": "{\n  \"find\": \"movies\",\n  \"filter\": { name: /{{data_table.searchText||\"\"}}/i },\n  \"sort\": { \n{{data_table.sortOrder.column || 'columns'}}: {{data_table.sortOrder.order == \"desc\" ? -1 : 1}} \n},\n  \"skip\": {{(data_table.pageNo - 1) * data_table.pageSize}},\n  \"limit\": {{data_table.pageSize}},\n  \"batchSize\": {{data_table.pageSize}}\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -114,6 +114,7 @@
       }
     },
     "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

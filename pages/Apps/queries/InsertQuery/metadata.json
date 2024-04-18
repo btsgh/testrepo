@@ -20,8 +20,16 @@
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
       "formData": {
+        "aggregate": {
+          "limit": {
+            "data": "10"
+          },
+          "arrayPipelines": {
+            "data": ""
+          }
+        },
         "collection": {
-          "data": "apps",
+          "data": "movies",
           "viewType": "component",
           "componentData": "apps"
         },
@@ -29,6 +37,44 @@
           "data": "INSERT",
           "viewType": "component",
           "componentData": "INSERT"
+        },
+        "count": {
+          "query": {
+            "data": ""
+          }
+        },
+        "delete": {
+          "limit": {
+            "data": "SINGLE"
+          },
+          "query": {
+            "data": ""
+          }
+        },
+        "distinct": {
+          "query": {
+            "data": ""
+          },
+          "key": {
+            "data": ""
+          }
+        },
+        "find": {
+          "skip": {
+            "data": ""
+          },
+          "query": {
+            "data": ""
+          },
+          "sort": {
+            "data": ""
+          },
+          "limit": {
+            "data": ""
+          },
+          "projection": {
+            "data": ""
+          }
         },
         "insert": {
           "documents": {
@@ -39,7 +85,7 @@
         },
         "misc": {
           "formToNativeQuery": {
-            "data": "{\n  \"insert\": \"apps\",\n  \"documents\": {{insert_form.formData}}\n}\n",
+            "data": "{\n  \"insert\": \"movies\",\n  \"documents\": {{insert_form.formData}}\n}\n",
             "status": "SUCCESS"
           }
         },
@@ -47,10 +93,22 @@
           "data": true,
           "viewType": "component",
           "componentData": true
+        },
+        "updateMany": {
+          "limit": {
+            "data": "SINGLE"
+          },
+          "query": {
+            "data": ""
+          },
+          "update": {
+            "data": ""
+          }
         }
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
